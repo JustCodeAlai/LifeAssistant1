@@ -45,7 +45,7 @@ public class NoteDatabaseHelper extends SQLiteOpenHelper {
         values.put(Notes.NoteColumn.ID, 1);
         values.put(Notes.NoteColumn.MODIFIED_TIME, System.currentTimeMillis());
         values.put(Notes.NoteColumn.TITLE, "欢迎使用记事本");
-        values.put(Notes.NoteColumn.CONTENT, "欢迎使用记事本" + "\n" + "屌丝是傻逼！！！");
+        values.put(Notes.NoteColumn.CONTENT, "欢迎使用记事本" + "\n" + "国超是傻逼！！！");
         db.insert(TABLE_NAME, null, values);
         Log.d(TAG, "table note has been created!");
     }
